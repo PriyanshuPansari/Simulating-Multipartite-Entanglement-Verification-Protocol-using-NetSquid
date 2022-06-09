@@ -29,9 +29,7 @@ Three types of protocols were defined-
 Source node sends an qubit to verifier node and each party nodes. It can be either honest or dishonest, if it is honest it will create a n-party GHZ state and distribute it to the n parties.
 
 #### Verifier protocol
-On reciving data the qubit from source node, it will  select for each i ∈ [n] a random input X<sub>i</sub> ∈ {0, 1}, such that <br/>
-![image 1](https://bit.ly/3aF1ei7), <br/>
-and sends it to the corresponding party via a private classical channel.
+On reciving data the qubit from source node, it will  select for each i ∈ [n] a random input X<sub>i</sub> ∈ {0, 1}, such that $ \sum_{1}^n X_{i} \equiv 0 (mod 2) $ and sends it to the corresponding party via a private classical channel.
 
 #### Party protocol
 After reciving the bit from Verifier node, it perfoms an operation on qubit recived from source node.
@@ -42,4 +40,4 @@ the corresponding outcome Yi ∈ {0, 1} to the Verifier via the private channel.
 
 #### Verifier protocol
  The Verifier accepts the result if and only if: <br/>
-![equation](https://bit.ly/3mzRMPM)
+$ \sum_{1}^n Y_{i} \equiv 1/2 \sum_{1}^n X_{i} (mod 2) $
