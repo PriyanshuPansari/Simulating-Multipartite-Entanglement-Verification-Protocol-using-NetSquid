@@ -2,9 +2,9 @@
 ## Problem Statement
 The goal of this project is to simulate the Multipartite Entanglement Verification protocol in a quantum network with N participating nodes. The choice of the verifier may be random or fixed. The verification protocol should then be tested for the following input states:
 
-The input state is the N-partite GHZ state.
-The input state is |0> on all N-qubits.
-The input state is the maximally mixed state on N-qubits (optional).
+1)The input state is the N-partite GHZ state  
+2)The input state is |0> on all N-qubits.  
+
 For each case, indicate the probability with which the input state will be accepted.
 
 ## Implementaion
@@ -19,10 +19,10 @@ The netwoek implemented consisted of N+1 nodes-
 There is a bi-directional classical channel between verfier node and each party, while there is a quantum channel between source node and verifier and party node. 
 
 ### Protocols
-Three types of protocols were defined-
-1)Source protocol for source node
-2)Verifier Protocol for verifer node
-3)Party Protocol for party node.
+Three types of protocols were defined-  
+1)Source protocol for source node.  
+2)Verifier Protocol for verifer node.  
+3)Party Protocol for party node  .
 
 ###The Protocol-
 #### Source protocol
