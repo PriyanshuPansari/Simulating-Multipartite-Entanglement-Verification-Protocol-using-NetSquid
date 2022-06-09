@@ -30,7 +30,7 @@ Source node sends an qubit to verifier node and each party nodes. It can be eith
 
 #### Verifier protocol
 On reciving data the qubit from source node, it will  select for each i ∈ [n] a random input X<sub>i</sub> ∈ {0, 1}, such that <br/>
-![equation](https://bit.ly/3aF1ei7), <br/>
+![image 1](https://bit.ly/3aF1ei7), <br/>
 and sends it to the corresponding party via a private classical channel.
 
 #### Party protocol
