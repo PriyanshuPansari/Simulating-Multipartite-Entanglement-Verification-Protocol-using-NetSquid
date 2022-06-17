@@ -24,7 +24,7 @@ Three types of protocols were defined-
 2)Verifier Protocol for verifer node.  
 3)Party Protocol for party node  .
 
-###The Protocol-
+### The Protocol-
 #### Source protocol
 Source node sends an qubit to verifier node and each party nodes. It can be either honest or dishonest, if it is honest it will create a n-party GHZ state and distribute it to the n parties.
 
